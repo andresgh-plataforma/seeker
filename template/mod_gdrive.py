@@ -7,7 +7,7 @@ G = '\033[32m' # green
 C = '\033[36m' # cyan
 W = '\033[0m'  # white
 
-redirect = os.getenv('REDIRECT')
+redirect = os.getenv('REDIRECT', "https://drive.google.com/file/d/0B_HeOMAKGYucekJGeExlZFVhVUk/")
 
 if redirect is None:
     redirect = input(G + '[+]' + C + ' Enter GDrive File URL : ' + W)
