@@ -2,7 +2,7 @@
 	font-family: Product Sans;
 	font-style: normal;
   	font-weight: 400;
-	src: url('/fonts/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2') format('woff2');
+	src: url('../fonts/pxiDypQkot1TnFhsFMOfGShVF9eO.woff2') format('woff2');
 }
 
 body { 
@@ -33,7 +33,7 @@ body {
 }
 
 .docs-drivelogo-img {
-    background-image: url('/images/googlelogo_color_116x41dp.png');
+    background-image: url('../images/googlelogo_color_116x41dp.png');
     background-size: 116px 41px;
     display: inline-block;
     height: 41px;
@@ -63,7 +63,7 @@ body {
 }
 
 #accessDeniedIcon {
-    background-image: url('/images/locked_doc-2.svg');
+    background-image: url('../images/locked_doc-2.svg');
     float: right;
     height: 158px;
     width: 128px;
@@ -137,7 +137,7 @@ button.jfk-button {
 		font: 25px Arial, sans-serif;
 	}
 	#accessDeniedIcon {
-		background-image: url('/images/locked_doc-1.svg');
+		background-image: url('../images/locked_doc-1.svg');
 		height: 108px;
 		width: 88px;
 	}
