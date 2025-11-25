@@ -48,7 +48,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 kml_fname = args.kml
-port = getenv('PORT') or args.port
+port = getenv('PORT', 8080) or args.port
 chk_upd = args.update
 print_v = args.version
 telegram = getenv('TELEGRAM') or args.telegram
