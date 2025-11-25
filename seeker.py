@@ -249,7 +249,7 @@ def server():
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
         try:
-            sock.connect(('127.0.0.1', port))
+            sock.connect(('127.0.0.1', int(port)))
         except ConnectionRefusedError:
             port_free = True
 
